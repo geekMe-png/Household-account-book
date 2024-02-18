@@ -1,13 +1,5 @@
 <x-app-layout>
     <div>
-        @if(Route::has('login'))
-            @auth
-            @else
-            <div class="container">
-                <p class="text-xl font-normal text-red-600">こちらはお試し用のページとなっております。サイトを利用したい方は右上のメニューから新規会員登録かログインをすることでご利用いただけます。</p>
-            </div>
-            @endauth
-            @endif
         <div class="py-11 mx-11">
             <div class="text-center space-y-5">
                 <div class="bg-amber-100 py-3 -mx-11 space-y-2">
